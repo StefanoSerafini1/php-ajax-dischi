@@ -16,22 +16,16 @@
             </div>
         </header>
         <div class="container">
-        <!-- v-for and v-if per album e per scelta genere album -->
-        <div class="card">
-       <?php foreach ($database as $song) {?>
-          <img src="<?php echo $song['poster'] ?>" alt="">
-          <h3><?php echo $song['title'] ?></h3>
-          <h4><?php echo $song['author'] ?></h4>
-          <h4><?php echo $song['year'] ?></h4>
-          <span><?php echo $song['genre'] ?></span>
-        <?php } ?>
+            <div class="card">
+                <?php foreach ($database as $song) {?>
+                    <img src="<?php echo $song['poster'] ?>" alt="">
+                    <h3><?php echo $song['title'] ?></h3>
+                    <h4><?php echo $song['author'] ?></h4>
+                    <h4><?php echo $song['year'] ?></h4>
+                    <span><?php echo $song['genre'] ?></span>
+                <?php } ?>
+            </div>
         </div>
-      </div>
-        
-        
-        
-        </div>
-    
     </div>
 </body>
 </html>
