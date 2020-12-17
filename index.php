@@ -13,13 +13,17 @@
         include __DIR__ . '/partials/database.php' 
     ?>
     <div id="app">
+        <!-- zona header con logo -->
         <header class="header">
             <div class="logo">
                 <img src="dist/img/logo.png" alt="Spotify">
             </div>
         </header>
+        <!-- zona contenitore totale zona carte -->
         <div class="container">
-        <?php foreach ($database as $song) {?>
+            <!-- foreach su array database nel file database per avere dati da inserire nelle carte -->
+        <?php foreach ($database as $song) {?> 
+             <!--contenitore carte canzoni  -->
             <div class="card">
                     <img src="<?php echo $song['poster'] ?>" alt="">
                     <h3><?php echo $song['title'] ?></h3>

@@ -33,7 +33,6 @@ header .logo img {
   align-items: center;
   flex-wrap: wrap;
   margin: 0 auto;
-  /* card album and immagini album */
 }
 .container .card {
   width: 200px;

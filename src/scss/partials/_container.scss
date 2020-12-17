@@ -1,3 +1,4 @@
+//css per container totale zona carte
 .container{
     width: 60%;
     display: flex;
@@ -5,8 +6,8 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
-  
-  /* card album and immagini album */
+
+  //contenitore card album and immagini album + h4
     .card{
         width: $widthcarta;
         height: $heightcarta;
