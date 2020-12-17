@@ -1,0 +1,33 @@
+.container{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  
+  /* card album and immagini album */
+    .card{
+        width: $widthcarta;
+        height: $heightcarta;
+        background-color: $cardcolor;
+        padding: 10px;
+        margin: 30px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        color: $colorTitolo;
+        font-size: 13px;
+  
+            h4{
+            color:  $colorArtistaAnno;
+            font-size: 13px;
+            }
+            img{
+                width: 80%;
+                max-height: 120px;
+            }
+    }
+}
