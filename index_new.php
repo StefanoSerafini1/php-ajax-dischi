@@ -18,7 +18,6 @@
         </header>
         <!-- zona contenitore totale zona carte -->
         <div class="container">
-            <!-- foreach su array database nel file database per avere dati da inserire nelle carte --> 
              <!--contenitore carte canzoni  -->
             <div v-for='song in dischi' class="card">
                     <img :src="song.poster" alt="copertina album">
